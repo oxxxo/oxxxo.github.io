@@ -106,10 +106,10 @@
 
         textParticles.position.x = - textParticles.totalWidth / 2;
 
-        controls.minPos     = -textParticles.totalHeight * 1.1;
+        controls.minPos     = -textParticles.totalHeight * 1.8;
         controls.maxPos     =  0;
         controls.multiplier =  .000003 * textParticles.totalHeight;
-        controls.dampening  = .95;
+        controls.dampening  = .35;
 
         window.addEventListener( 'resize', onWindowResize, false );
 
