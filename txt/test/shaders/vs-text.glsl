@@ -1,4 +1,3 @@
-
 attribute vec4 textCoord;
 attribute vec2 lookup;
 
