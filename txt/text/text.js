@@ -6,5 +6,7 @@ var passage = `
  hgfhgfjgjyjt    hgfhgfjgjyjt
         hgfhgfjgjyjt
 
+        абв где жзи
+
 
  `
