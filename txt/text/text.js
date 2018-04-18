@@ -1,6 +1,5 @@
 var passage = `
-
-    
+ 
          hgfhgfjgjyjt
  hgfhgfjgjyjt
  hgfhgfjgjyjt
