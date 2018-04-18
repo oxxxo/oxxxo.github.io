@@ -93,7 +93,7 @@
         // Passage comes from seperate file
         textParticles = new TextParticles( passage , font , vs , fs , {
          letterWidth: .02,
-         lineLength: 80,
+         lineLength: 40,
          uniforms:{
           time: time,
          }  
@@ -109,7 +109,7 @@
         controls.minPos     = -textParticles.totalHeight * 1.8;
         controls.maxPos     =  0;
         controls.multiplier =  .000003 * textParticles.totalHeight;
-        controls.dampening  = .35;
+        controls.dampening  = .99;
 
         window.addEventListener( 'resize', onWindowResize, false );
 
